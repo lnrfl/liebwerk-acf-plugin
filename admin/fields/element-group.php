@@ -19,7 +19,9 @@ require_once ('subfields/grid.php');
 require_once ('subfields/post-grid-teaser.php');
 require_once ('subfields/post-grid.php');
 require_once ('subfields/google-map.php');
+require_once ('subfields/timeline.php');
 require_once ('subfields/hero-small.php');
+require_once ('subfields/elements-grid.php');
 
 acf_add_local_field_group(
 	array(
@@ -65,6 +67,8 @@ acf_add_local_field_group(
 					'post-grid-teaser' => $post_grid_teaser,
 					'post-grid' => $post_grid,
 					'google-map' => $google_map,
+					'timeline' => $timeline,
+					'elements-grid' => $elements_grid,
 				),
 				'button_label' => 'Layout hinzufügen',
 				'min' => '',
